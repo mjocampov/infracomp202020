@@ -1,7 +1,7 @@
 window.onload = function () {
 
 $.ajax({
-  url:"./data/cities.csv",
+  url:"data/cities.csv",
   dataType:"text",
   success:function(data)
   {
