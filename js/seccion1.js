@@ -1,7 +1,7 @@
 window.onload = function () {
 
 $.ajax({
-  url:"data/cities.csv",
+  url:"https://github.com/mjocampov/infracomp202020/blob/master/data/cities.csv",
   dataType:"text",
   success:function(data)
   {
