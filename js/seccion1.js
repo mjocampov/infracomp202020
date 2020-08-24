@@ -1,6 +1,10 @@
 window.onload = function () {
 
-$.ajax({
+d3.csv("data/cities.csv").then(function(data) {
+  console.log(data[0]);
+});
+
+/**$.ajax({
   url:"https://github.com/mjocampov/infracomp202020/blob/master/data/cities.csv",
   dataType:"text",
   success:function(data)
@@ -28,5 +32,5 @@ $.ajax({
     table_data += '</table>';
     $('#students_table').html(table_data);
   }
-});
+});**/
 }
