@@ -11,7 +11,7 @@ window.onload = function () {
 
   for(var i=0; i < data.length; i++)
   {
-    data[i].puntos = data.nota_padlet;
+    data[i].puntos = parseInt(data[i].nota_padlet);
   }
 
   data.sort((a, b) => (a.puntos < b.puntos) ? 1 : -1);
