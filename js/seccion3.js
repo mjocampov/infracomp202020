@@ -1,5 +1,9 @@
 window.onload = function () {
 
+d3.csv("data/Sec3.csv").then(function(data) {
+  console.log(data[0]);
+  data.sort((a, b) => (a.puntos < b.puntos) ? 1 : -1);
+
   var table_data = '<table class="table table-bordered table striped">';
   table_data += '<tr>';
   table_data += '<th>' + "Posición" + '</th>';

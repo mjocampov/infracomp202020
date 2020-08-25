@@ -1,6 +1,6 @@
 window.onload = function () {
 
-d3.csv("data/Secc1.csv").then(function(data) {
+d3.csv("data/Sec1.csv").then(function(data) {
   console.log(data[0]);
   
   var table_data = '<table class="table table-bordered table striped">';
