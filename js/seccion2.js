@@ -16,25 +16,25 @@ d3.csv("data/seccion2.csv").then(function(data) {
     if (i === 0) 
     {
       table_data += '<tr class ="first">';
-      table_data += '<td>' + "<img src=\"img/first.png\" />"+ '</td>';
+      table_data += '<td>' + "<img class=\"podium\" src=\"img/first.png\" />"+ '</td>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].puntos + '</td>';
       table_data += '</tr>';
     }
-    if (i === 1) 
+    else if (i === 1) 
     {
       table_data += '<tr class ="second">';
-      table_data += '<td>' + "<img src=\"img/second.png\" />"+ '</td>';
+      table_data += '<td>' + "<img class=\"podium\" src=\"img/second.png\" />"+ '</td>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].puntos + '</td>';
       table_data += '</tr>';
     }
-    if (i === 2) 
+    else if (i === 2) 
     {
       table_data += '<tr class ="third">';
-      table_data += '<td>' + "<img src=\"img/third.png\" />"+ '</td>';
+      table_data += '<td>' + "<img class=\"podium\" src=\"img/third.png\" />"+ '</td>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].puntos + '</td>';
