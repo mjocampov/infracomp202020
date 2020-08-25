@@ -13,69 +13,21 @@ p {
   margin-right: auto;
 }
 
-.description {
+.first {
+  font-size: 26px;
+  color: white;
+  background: #ec6c53;
+}
+
+.second {
   font-size: 24px;
-  text-align: justify;
-  padding-right: 20px;
+  color: white;
+  background: #ffc965;
 }
 
-.italic {
-  font-style: italic;
+.third {
+  font-size: 22px;
+  color: white;
+  background: #7db7af;
 }
 
-.skills {
-  width: 90%;
-  height: 500px;
-}
-
-.card {
-  transition: transform .2s;
-  text-align: justify;
-}
-
-.card:hover {
-  transform: scale(1.1);
-}
-
-.projects, .interests {
-  width: 90%;
-  height: auto;
-}
-
-.carousel-caption {
-  background-color: rgba(128,128,128,0.5);
-}
-
-.rugby {
-  width: 60%;
-  height: auto;
-}
-
-.rugby-header {
-  padding-left: 30px;
-}
-
-.interests-logo {
-  width: 300px;
-  height: auto;
-}
-
-.data-mining-logo {
-  width: 50%;
-  height: auto;
-}
-
-.twitter-logo {
-  height: auto;
-  width: 15%;
-  float: right;
-}
-
-.github-logo {
-  height: auto;
-  width: 9%;
-}
-
-.mail {
-  float: left;
-}
