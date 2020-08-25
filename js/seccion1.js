@@ -1,15 +1,24 @@
 window.onload = function () {
 
-d3.csv("data/seccion1.csv").then(function(data) {
+d3.csv("data/Secc1.csv").then(function(data) {
   console.log(data[0]);
-  data.sort((a, b) => (a.puntos < b.puntos) ? 1 : -1);
+  
   var table_data = '<table class="table table-bordered table striped">';
   table_data += '<tr>';
   table_data += '<th>' + "Posición" + '</th>';
   table_data += '<th>' + "Apellidos" + '</th>';
   table_data += '<th>' + "Nombre" + '</th>';
-  table_data += '<th>' + "Puntos" + '</th>';
+  table_data += '<th>' + "Nota Padlet" + '</th>';
+  table_data += '<th>' + "Total" + '</th>';
   table_data += '</tr>';
+
+  for(var i=0; i < data.length; i++)
+  {
+    data[i].puntos = data.nota_padlet;
+  }
+
+  data.sort((a, b) => (a.puntos < b.puntos) ? 1 : -1);
+
   for(var i=0; i < data.length; i++)
   {
     if (i === 0) 
@@ -18,6 +27,7 @@ d3.csv("data/seccion1.csv").then(function(data) {
       table_data += '<td>' + "<img class=\"podium\" src=\"img/first.png\" />"+ '</td>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
+      table_data += '<td>' + data[i].nota_padlet + '</td>';
       table_data += '<td>' + data[i].puntos + '</td>';
       table_data += '</tr>';
     }
@@ -27,6 +37,7 @@ d3.csv("data/seccion1.csv").then(function(data) {
       table_data += '<td>' + "<img class=\"podium\" src=\"img/second.png\" />"+ '</td>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
+      table_data += '<td>' + data[i].nota_padlet + '</td>';
       table_data += '<td>' + data[i].puntos + '</td>';
       table_data += '</tr>';
     }
@@ -36,6 +47,7 @@ d3.csv("data/seccion1.csv").then(function(data) {
       table_data += '<td>' + "<img class=\"podium\" src=\"img/third.png\" />"+ '</td>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
+      table_data += '<td>' + data[i].nota_padlet + '</td>';
       table_data += '<td>' + data[i].puntos + '</td>';
       table_data += '</tr>';
     }
@@ -45,6 +57,7 @@ d3.csv("data/seccion1.csv").then(function(data) {
       table_data += '<td>' + (i+1) + '</td>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
+      table_data += '<td>' + data[i].nota_padlet + '</td>';
       table_data += '<td>' + data[i].puntos + '</td>';
       table_data += '</tr>';
     }
