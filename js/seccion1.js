@@ -6,7 +6,7 @@ d3.csv("data/cities.csv").then(function(data) {
 
   var table_data = '<table class="table table-bordered table striped">';
   table_data += '<tr>';
-  table_data += '<th>' + Titulo + '</th>';
+  table_data += '<th>' + "Titulo" + '</th>';
   table_data += '</tr>';
   for(var i=0; i < data.length; i++)
   {
