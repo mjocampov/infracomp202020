@@ -3,7 +3,7 @@ window.onload = function () {
 d3.csv("data/Sec1(1).csv").then(function(data) {
   console.log(data[0]);
   
-table_data += '<tr>';
+  var table_data += '<tr>';
   table_data += '<th>' + "Posición" + '</th>';
   table_data += '<th>' + "Apellidos" + '</th>';
   table_data += '<th>' + "Nombre" + '</th>';
@@ -25,9 +25,9 @@ table_data += '<tr>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].nota_padlet + '</td>';
-      table_data += '<td>' + data[i].'12/8/2020' + '</td>';
-      table_data += '<td>' + data[i].'21/8/2020' + '</td>';
-      table_data += '<td>' + data[i].'26/8/2020' + '</td>';
+      table_data += '<td>' + data[i].getAttribute('12/8/2020') + '</td>';
+      table_data += '<td>' + data[i].getAttribute('21/8/2020') + '</td>';
+      table_data += '<td>' + data[i].getAttribute('26/8/2020') + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -38,9 +38,9 @@ table_data += '<tr>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].nota_padlet + '</td>';
-      table_data += '<td>' + data[i].'12/8/2020' + '</td>';
-      table_data += '<td>' + data[i].'21/8/2020' + '</td>';
-      table_data += '<td>' + data[i].'26/8/2020' + '</td>';
+      table_data += '<td>' + data[i].getAttribute('12/8/2020') + '</td>';
+      table_data += '<td>' + data[i].getAttribute('21/8/2020') + '</td>';
+      table_data += '<td>' + data[i].getAttribute('26/8/2020') + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -51,9 +51,9 @@ table_data += '<tr>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].nota_padlet + '</td>';
-      table_data += '<td>' + data[i].'12/8/2020' + '</td>';
-      table_data += '<td>' + data[i].'21/8/2020' + '</td>';
-      table_data += '<td>' + data[i].'26/8/2020' + '</td>';
+      table_data += '<td>' + data[i].getAttribute('12/8/2020') + '</td>';
+      table_data += '<td>' + data[i].getAttribute('21/8/2020') + '</td>';
+      table_data += '<td>' + data[i].getAttribute('26/8/2020') + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -64,9 +64,9 @@ table_data += '<tr>';
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].nota_padlet + '</td>';
-      table_data += '<td>' + data[i].'12/8/2020' + '</td>';
-      table_data += '<td>' + data[i].'21/8/2020' + '</td>';
-      table_data += '<td>' + data[i].'26/8/2020' + '</td>';
+      table_data += '<td>' + data[i].getAttribute('12/8/2020') + '</td>';
+      table_data += '<td>' + data[i].getAttribute('21/8/2020') + '</td>';
+      table_data += '<td>' + data[i].getAttribute('26/8/2020') + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
