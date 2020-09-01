@@ -3,7 +3,8 @@ window.onload = function () {
 d3.csv("data/Sec1(1).csv").then(function(data) {
   console.log(data[0]);
   
-  var table_data += '<tr>';
+  var table_data = '<table class="table table-bordered table striped">';
+  table_data += '<tr>';
   table_data += '<th>' + "Posición" + '</th>';
   table_data += '<th>' + "Apellidos" + '</th>';
   table_data += '<th>' + "Nombre" + '</th>';
