@@ -1,6 +1,6 @@
 window.onload = function () {
 
-d3.csv("data/Sec1.csv").then(function(data) {
+d3.csv("data/Sec1(1).csv").then(function(data) {
   console.log(data[0]);
   
   var table_data = '<table class="table table-bordered table striped">';
@@ -9,15 +9,13 @@ d3.csv("data/Sec1.csv").then(function(data) {
   table_data += '<th>' + "Apellidos" + '</th>';
   table_data += '<th>' + "Nombre" + '</th>';
   table_data += '<th>' + "Nota Padlet" + '</th>';
+  table_data += '<th>' + "12/8/2020" + '</th>';
+  table_data += '<th>' + "21/8/2020" + '</th>';
+  table_data += '<th>' + "26/8/2020" + '</th>';
   table_data += '<th>' + "Total" + '</th>';
   table_data += '</tr>';
 
-  for(var i=0; i < data.length; i++)
-  {
-    data[i].puntos = parseFloat(data[i].nota_padlet);
-  }
-
-  data.sort((a, b) => (a.puntos < b.puntos) ? 1 : -1);
+  data.sort((a, b) => (a.total < b.total) ? 1 : -1);
 
   for(var i=0; i < data.length; i++)
   {
@@ -28,7 +26,7 @@ d3.csv("data/Sec1.csv").then(function(data) {
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].nota_padlet + '</td>';
-      table_data += '<td>' + data[i].puntos + '</td>';
+      table_data += '<td>' + data[i].total + '</td>';
       table_data += '</tr>';
     }
     else if (i === 1) 
