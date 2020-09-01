@@ -14,7 +14,7 @@ d3.csv("data/Sec2(1).csv").then(function(data) {
   table_data += '<th>' + "Total" + '</th>';
   table_data += '</tr>';
 
-  data.sort((a, b) => (a.total < b.total) ? 1 : -1);
+  data.sort((a, b) => (parseFloat(a.total) < parseFloat(b.total)) ? 1 : -1);
 
   for(var i=0; i < data.length; i++)
   {
@@ -25,7 +25,10 @@ d3.csv("data/Sec2(1).csv").then(function(data) {
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].nota_padlet + '</td>';
-      table_data += '<td>' + data[i].total + '</td>';
+      table_data += '<td>' + data[i].'12/8/2020' + '</td>';
+      table_data += '<td>' + data[i].'21/8/2020' + '</td>';
+      table_data += '<td>' + data[i].'26/8/2020' + '</td>';
+      table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
     else if (i === 1) 
@@ -35,7 +38,10 @@ d3.csv("data/Sec2(1).csv").then(function(data) {
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].nota_padlet + '</td>';
-      table_data += '<td>' + data[i].puntos + '</td>';
+      table_data += '<td>' + data[i].'12/8/2020' + '</td>';
+      table_data += '<td>' + data[i].'21/8/2020' + '</td>';
+      table_data += '<td>' + data[i].'26/8/2020' + '</td>';
+      table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
     else if (i === 2) 
@@ -45,7 +51,10 @@ d3.csv("data/Sec2(1).csv").then(function(data) {
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].nota_padlet + '</td>';
-      table_data += '<td>' + data[i].puntos + '</td>';
+      table_data += '<td>' + data[i].'12/8/2020' + '</td>';
+      table_data += '<td>' + data[i].'21/8/2020' + '</td>';
+      table_data += '<td>' + data[i].'26/8/2020' + '</td>';
+      table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
     else
@@ -55,7 +64,10 @@ d3.csv("data/Sec2(1).csv").then(function(data) {
       table_data += '<td>' + data[i].apellidos + '</td>';
       table_data += '<td>' + data[i].nombre + '</td>';
       table_data += '<td>' + data[i].nota_padlet + '</td>';
-      table_data += '<td>' + data[i].puntos + '</td>';
+      table_data += '<td>' + data[i].'12/8/2020' + '</td>';
+      table_data += '<td>' + data[i].'21/8/2020' + '</td>';
+      table_data += '<td>' + data[i].'26/8/2020' + '</td>';
+      table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
   }
