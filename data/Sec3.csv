@@ -1,24 +1,24 @@
 apellidos,nombre,ID de alumno,correo,nota_padlet,13/8/2020,27/8/2020,total
 FORERO OSORIO,ANDRES,201614341,a.foreroo@uniandes.edu.co,2,2,2,6
 PINZON ORJUELA,ANDRES FELIPE,201730179,af.pinzono@uniandes.edu.co,2,1,2,5
-MONROY ANDRADE,CARLOS GERMAN,201728260,cg.monroy@uniandes.edu.co,2,2,0,5,4,5
-PEREZ MARIN,CRISTIAN MATEO,201814723,cm.perezm@uniandes.edu.co,2,2,1,5,5,5
-OSORIO ALGARRA,CARLOS SAMUEL,201730074,cs.osorioa@uniandes.edu.co,2,2,1,5,5,5
-BETANCURTH DORADO,DANIEL,201729166,d.betancurth@uniandes.edu.co,2,3,2,5,7,5
+MONROY ANDRADE,CARLOS GERMAN,201728260,cg.monroy@uniandes.edu.co,2,2,0.5,4.5
+PEREZ MARIN,CRISTIAN MATEO,201814723,cm.perezm@uniandes.edu.co,2,2,1.5,5.5
+OSORIO ALGARRA,CARLOS SAMUEL,201730074,cs.osorioa@uniandes.edu.co,2,2,1.5,5.5
+BETANCURTH DORADO,DANIEL,201729166,d.betancurth@uniandes.edu.co,2,3,2.5,7.5
 BERNAL VALENCIA,DANIEL ANDRES,201519654,da.bernal11@uniandes.edu.co,2,2,0,4
-USECHE RODRIGUEZ,DANIEL FERNANDO,201815546,df.useche@uniandes.edu.co,2,1,1,5,4,5
-GONZALEZ PEREIRA,GABRIEL JOSE,201631241,gj.gonzalez@uniandes.edu.co,2,2,1,5,5,5
+USECHE RODRIGUEZ,DANIEL FERNANDO,201815546,df.useche@uniandes.edu.co,2,1,1.5,4.5
+GONZALEZ PEREIRA,GABRIEL JOSE,201631241,gj.gonzalez@uniandes.edu.co,2,2,1.5,5.5
 CAYCEDO SERRANO,JUAN ANDRES,201820890,ja.caycedo@uniandes.edu.co,2,3,3,8
 GUZMAN MOYANO,JOHN ALEXANDER,201713338,ja.guzmanm@uniandes.edu.co,2,2,1,5
 PEÃ‘A CRIADO,JUAN FELIPE,201426463,jf.pena10@uniandes.edu.co,1,3,2,6
-BARRIOS MONTENEGRO,JHULIANA JHOEL,201812751,jj.barriosm@uniandes.edu.co,2,2,2,5,6,5
+BARRIOS MONTENEGRO,JHULIANA JHOEL,201812751,jj.barriosm@uniandes.edu.co,2,2,2.5,6.5
 CABALLERO SUAREZ,JHORMAN ORLANDO,201812920,jo.caballero@uniandes.edu.co,0,1,1,2
-HERNANDEZ ROJAS,JUAN PABLO,201912855,jp.hernandezr1@uniandes.edu.co,2,1,2,5,5,5
-MARTINEZ CONTRERAS,JUAN PABLO,201820521,jp.martinezc@uniandes.edu.co,2,2,1,5,5,5
-CABRA LEON,JUAN SEBASTIAN,201630689,js.cabra@uniandes.edu.co,0,2,1,5,3,5
-CLAVIJO SANCHEZ,JUAN SEBASTIAN,201630861,js.clavijos@uniandes.edu.co,2,,1,3
-GAMEZ ABRIL,KEVIN STEVEN,201912514,ks.gamez@uniandes.edu.co,2,2,1,5,5,5
-PARRA DIAZ,MARIA CAMILA,201819464,mc.parrad@uniandes.edu.co,2,1,2,5,5,5
+HERNANDEZ ROJAS,JUAN PABLO,201912855,jp.hernandezr1@uniandes.edu.co,2,1,2.5,5.5
+MARTINEZ CONTRERAS,JUAN PABLO,201820521,jp.martinezc@uniandes.edu.co,2,2,1.5,5.5
+CABRA LEON,JUAN SEBASTIAN,201630689,js.cabra@uniandes.edu.co,0,2,1.5,3.5
+CLAVIJO SANCHEZ,JUAN SEBASTIAN,201630861,js.clavijos@uniandes.edu.co,2,0,1,3
+GAMEZ ABRIL,KEVIN STEVEN,201912514,ks.gamez@uniandes.edu.co,2,2,1.5,5.5
+PARRA DIAZ,MARIA CAMILA,201819464,mc.parrad@uniandes.edu.co,2,1,2.5,5.5
 MEDINA ZAMUDIO,MARIO FELIPE,201814212,mf.medinaz@uniandes.edu.co,2,2,0,4
 LONDOÃ‘O CUELLAR,NICOLAS,201821364,n.londonoc@uniandes.edu.co,0,2,0,2
 POCH LLORENTE,NICOLAS,201730187,n.poch@uniandes.edu.co,2,2,1,5
@@ -26,9 +26,9 @@ PLATA AYALA,NESTOR ANDRES,201822937,na.plata@uniandes.edu.co,2,3,2,7
 DUEÃ‘AS VEGA,NICOLE VANESSA,201816242,nv.duenas@uniandes.edu.co,2,2,2,6
 CACERES LEAL,OSWALDO JOSE,201812936,oj.caceres@uniandes.edu.co,2,1,2,5
 DORADO HURTADO,PABLO,201821008,p.dorado@uniandes.edu.co,2,2,0,4
-MOLINA RUIZ,PAULA ALEJANDRA,201631596,pa.molina@uniandes.edu.co,2,1,1,5,4,5
-GUZMAN LONDOÃ‘O,SIMON,201533711,s.guzman@uniandes.edu.co,1,2,1,5,4,5
+MOLINA RUIZ,PAULA ALEJANDRA,201631596,pa.molina@uniandes.edu.co,2,1,1.5,4.5
+GUZMAN LONDOÃ‘O,SIMON,201533711,s.guzman@uniandes.edu.co,1,2,1.5,4.5
 PAERES GONZALEZ,SANTIAGO,201425176,s.paeres10@uniandes.edu.co,0,1,2,3
-RENDON ARANGO,SIMON,201820112,s.rendona@uniandes.edu.co,2,2,1,5,5,5
-TANGARIFE RINCON,SANTIAGO,201815439,s.tangarife@uniandes.edu.co,2,2,1,5,5,5
-ZONA MORENO,SERGIO JULIAN,201914936,sj.zona@uniandes.edu.co,2,2,1,5,5,5
+RENDON ARANGO,SIMON,201820112,s.rendona@uniandes.edu.co,2,2,1.5,5.5
+TANGARIFE RINCON,SANTIAGO,201815439,s.tangarife@uniandes.edu.co,2,2,1.5,5.5
+ZONA MORENO,SERGIO JULIAN,201914936,sj.zona@uniandes.edu.co,2,2,1.5,5.5
