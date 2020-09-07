@@ -1,9 +1,9 @@
 window.onload = function () {
 
-d3.csv("data/Sec2(1).csv").then(function(data) {
+d3.csv("data/Seccion2.csv").then(function(data) {
   console.log(data[0]);
 
-var table_data = '<table class="table table-bordered table striped">';
+  var table_data = '<table class="table table-bordered table striped">';
   table_data += '<tr>';
   table_data += '<th>' + "Posición" + '</th>';
   table_data += '<th>' + "Apellidos" + '</th>';
@@ -12,6 +12,7 @@ var table_data = '<table class="table table-bordered table striped">';
   table_data += '<th>' + "12/8/2020" + '</th>';
   table_data += '<th>' + "21/8/2020" + '</th>';
   table_data += '<th>' + "26/8/2020" + '</th>';
+  table_data += '<th>' + "2/9/2020" + '</th>';
   table_data += '<th>' + "Total" + '</th>';
   table_data += '</tr>';
 
@@ -23,12 +24,13 @@ var table_data = '<table class="table table-bordered table striped">';
     {
       table_data += '<tr class ="first">';
       table_data += '<td>' + "<img class=\"podium\" src=\"img/first.png\" />"+ '</td>';
-      table_data += '<td>' + data[i].apellidos + '</td>';
-      table_data += '<td>' + data[i].nombre + '</td>';
-      table_data += '<td>' + data[i].nota_padlet + '</td>';
+      table_data += '<td>' + data[i]['Apellidos'] + '</td>';
+      table_data += '<td>' + data[i]['Nombre']+ '</td>';
+      table_data += '<td>' + data[i]['Nota_PADLET'] + '</td>';
       table_data += '<td>' + data[i]['12/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['21/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['26/8/2020'] + '</td>';
+      table_data += '<td>' + data[i]['2/9/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -36,12 +38,13 @@ var table_data = '<table class="table table-bordered table striped">';
     {
       table_data += '<tr class ="second">';
       table_data += '<td>' + "<img class=\"podium\" src=\"img/second.png\" />"+ '</td>';
-      table_data += '<td>' + data[i].apellidos + '</td>';
-      table_data += '<td>' + data[i].nombre + '</td>';
-      table_data += '<td>' + data[i].nota_padlet + '</td>';
+      table_data += '<td>' + data[i]['Apellidos'] + '</td>';
+      table_data += '<td>' + data[i]['Nombre']+ '</td>';
+      table_data += '<td>' + data[i]['Nota_PADLET'] + '</td>';
       table_data += '<td>' + data[i]['12/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['21/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['26/8/2020'] + '</td>';
+      table_data += '<td>' + data[i]['2/9/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -49,12 +52,13 @@ var table_data = '<table class="table table-bordered table striped">';
     {
       table_data += '<tr class ="third">';
       table_data += '<td>' + "<img class=\"podium\" src=\"img/third.png\" />"+ '</td>';
-      table_data += '<td>' + data[i].apellidos + '</td>';
-      table_data += '<td>' + data[i].nombre + '</td>';
-      table_data += '<td>' + data[i].nota_padlet + '</td>';
+      table_data += '<td>' + data[i]['Apellidos'] + '</td>';
+      table_data += '<td>' + data[i]['Nombre']+ '</td>';
+      table_data += '<td>' + data[i]['Nota_PADLET'] + '</td>';
       table_data += '<td>' + data[i]['12/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['21/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['26/8/2020'] + '</td>';
+      table_data += '<td>' + data[i]['2/9/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -62,12 +66,13 @@ var table_data = '<table class="table table-bordered table striped">';
     {
       table_data += '<tr>';
       table_data += '<td>' + (i+1) + '</td>';
-      table_data += '<td>' + data[i].apellidos + '</td>';
-      table_data += '<td>' + data[i].nombre + '</td>';
-      table_data += '<td>' + data[i].nota_padlet + '</td>';
+      table_data += '<td>' + data[i]['Apellidos'] + '</td>';
+      table_data += '<td>' + data[i]['Nombre']+ '</td>';
+      table_data += '<td>' + data[i]['Nota_PADLET'] + '</td>';
       table_data += '<td>' + data[i]['12/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['21/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['26/8/2020'] + '</td>';
+      table_data += '<td>' + data[i]['2/9/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
