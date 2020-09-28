@@ -1,6 +1,6 @@
 window.onload = function () {
 
-d3.csv("data/Seccion 3.csv").then(function(data) {
+d3.csv("data/Seccion3.csv").then(function(data) {
   console.log(data[0]);
 
   var table_data = '<table class="table table-bordered table striped">';
@@ -12,6 +12,7 @@ d3.csv("data/Seccion 3.csv").then(function(data) {
   table_data += '<th>' + "13/8/2020" + '</th>';
   table_data += '<th>' + "27/8/2020" + '</th>';
   table_data += '<th>' + "03/9/2020" + '</th>';
+  table_data += '<th>' + "24/9/2020" + '</th>';
   table_data += '<th>' + "Total" + '</th>';
   table_data += '</tr>';
 
@@ -29,6 +30,7 @@ d3.csv("data/Seccion 3.csv").then(function(data) {
       table_data += '<td>' + data[i]['13/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['27/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['03/9/2020'] + '</td>';
+      table_data += '<td>' + data[i]['24/9/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -42,6 +44,7 @@ d3.csv("data/Seccion 3.csv").then(function(data) {
       table_data += '<td>' + data[i]['13/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['27/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['03/9/2020'] + '</td>';
+      table_data += '<td>' + data[i]['24/9/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -55,6 +58,7 @@ d3.csv("data/Seccion 3.csv").then(function(data) {
       table_data += '<td>' + data[i]['13/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['27/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['03/9/2020'] + '</td>';
+      table_data += '<td>' + data[i]['24/9/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -68,6 +72,7 @@ d3.csv("data/Seccion 3.csv").then(function(data) {
       table_data += '<td>' + data[i]['13/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['27/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['03/9/2020'] + '</td>';
+      table_data += '<td>' + data[i]['24/9/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
