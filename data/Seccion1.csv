@@ -1,36 +1,36 @@
-Apellidos,Nombre,ID de alumno,Nota_PADLET,12/8/2020,21/8/2020,26/8/2020,2/9/2020,total
-Alvarado Vargas,Nicolas Arturo,201630444,2,2,2,4,17,27
-Barreto Calvo,Daniel,201822639,1,3,0,0,5,9
-Bravo Vega,Alejandra,201613222,2,2,0,0,0,4
-Cardona Diaz,Juan Diego,201819447,2,3,2,5,13,25
-Carrascal Diaz,Luimarco Daniel Santiago,201620630,2,3,2,3,12,22
-Castañeda Gomez,Juan Carlos,201621921,2,3,2,3,12,22
-Castellanos Bonilla,Juan Diego,201816067,2,3,4,4,15,28
-Castrillon Castañeda,Kevin Hernan,201613597,2,2,2,1,16,23
-Castro Gonzalez,Luis David De Jesus,201720389,2,4,2,4,0,12
-Copete Mutis,Juan Fernando,201613801,2,0,0,0,12,14
-Cuta Salamanca,Brayan Yesid,201318151,2,2,2,4,9,19
-Dominguez Herrera,Luis David,201816080,2,4,2,5,16,29
-Ehrlich Martinez,Pietro,201729443,2,0,3,3,0,8
-Esguerra Alarcon,Jorge Andres,201719920,2,4,3,4,15,28
-Garcia Montañez,Oscar Ivan,201630048,2,3,2,1,15,23
-Gasparoni Berdugo,Tobia Raffaele,201729562,2,3,3,4,17,29
-Gonzalez Gomez,Juan Diego,201911031,2,3,3,5,15,28
-Laguna Guantiva,Mateo,201414158,2,2,3,4,12,23
-Machado Ferrucho,Daniel Felipe,201615400,2,3,1,4,10,20
-MEJIA PARRA,JUAN FELIPE,201517650,0,0,2,3,0,5
-Montes Castiblanco,Miguel Santiago,201817273,2,3,2,0,0,7
-Mora Pinto,Nel Alejandro,201720058,2,2,2,5,17,28
-Pacheco Carvajal,Juan Camilo,201913666,2,2,2,4,1,11
-Peniche Calderon,Javier David,201716772,2,3,2,5,16,28
-Perez Castilla,Carlos Mario,201718653,0,3,2,0,0,5
-Ramos Hurtado,Miguel Angel,201814917,2,3,0,0,0,5
-Restrepo Gamboa,Ivan Santiago,201914074,2,3,2,4,15,26
-Rodriguez Varela,Angel Antonio,201714772,2,4,2,4,16,28
-Romero Peña,Juan Pablo,201512388,2,3,4,2,0,11
-Romero Pinzon,Juan Pablo,201730361,0,3,0,0,14,17
-Sanabria Forero,Natalia,201532265,2,4,2,4,16,28
-Sanchez Buitrago,Arlis Felipe,201914413,2,3,3,4,15,27
-Silva Gomez,Andres,201632266,2,4,2,4,13,25
-Tapias Guzman,David Santiago,201821996,2,3,2,4,13,24
-Villamil Rodriguez,Juan David,201812268,2,4,3,3,15,27
+ï»¿Apellidos,Nombre,ID de alumno,Nota_PADLET,12/8/2020,21/8/2020,26/8/2020,2/9/2020,11/11/2020,total
+Alvarado Vargas,Nicolas Arturo,201630444,2,2,2,4,17,0,27
+Barreto Calvo,Daniel,201822639,1,3,0,0,5,0,9
+Bravo Vega,Alejandra,201613222,2,2,0,0,0,0,4
+Cardona Diaz,Juan Diego,201819447,2,3,2,5,13,0,25
+Carrascal Diaz,Luimarco Daniel Santiago,201620630,2,3,2,3,12,0,22
+CastaÃ±eda Gomez,Juan Carlos,201621921,2,3,2,3,12,0,22
+Castellanos Bonilla,Juan Diego,201816067,2,3,4,4,15,0,28
+Castrillon CastaÃ±eda,Kevin Hernan,201613597,2,2,2,1,16,1,24
+Castro Gonzalez,Luis David De Jesus,201720389,2,4,2,4,0,0,12
+Copete Mutis,Juan Fernando,201613801,2,0,0,0,12,0,14
+Cuta Salamanca,Brayan Yesid,201318151,2,2,2,4,9,1,20
+Dominguez Herrera,Luis David,201816080,2,4,2,5,16,0,29
+Ehrlich Martinez,Pietro,201729443,2,0,3,3,0,0,8
+Esguerra Alarcon,Jorge Andres,201719920,2,4,3,4,15,1,29
+Garcia MontaÃ±ez,Oscar Ivan,201630048,2,3,2,1,15,0,23
+Gasparoni Berdugo,Tobia Raffaele,201729562,2,3,3,4,17,1,30
+Gonzalez Gomez,Juan Diego,201911031,2,3,3,5,15,0,28
+Laguna Guantiva,Mateo,201414158,2,2,3,4,12,0,23
+Machado Ferrucho,Daniel Felipe,201615400,2,3,1,4,10,0,20
+MEJIA PARRA,JUAN FELIPE,201517650,0,0,2,3,0,0,5
+Montes Castiblanco,Miguel Santiago,201817273,2,3,2,0,0,0,7
+Mora Pinto,Nel Alejandro,201720058,2,2,2,5,17,0,28
+Pacheco Carvajal,Juan Camilo,201913666,2,2,2,4,1,0,11
+Peniche Calderon,Javier David,201716772,2,3,2,5,16,0,28
+Perez Castilla,Carlos Mario,201718653,0,3,2,0,0,0,5
+Ramos Hurtado,Miguel Angel,201814917,2,3,0,0,0,0,5
+Restrepo Gamboa,Ivan Santiago,201914074,2,3,2,4,15,0,26
+Rodriguez Varela,Angel Antonio,201714772,2,4,2,4,16,0,28
+Romero PeÃ±a,Juan Pablo,201512388,2,3,4,2,0,0,11
+Romero Pinzon,Juan Pablo,201730361,0,3,0,0,14,0,17
+Sanabria Forero,Natalia,201532265,2,4,2,4,16,0,28
+Sanchez Buitrago,Arlis Felipe,201914413,2,3,3,4,15,1,28
+Silva Gomez,Andres,201632266,2,4,2,4,13,0,25
+Tapias Guzman,David Santiago,201821996,2,3,2,4,13,0,24
+Villamil Rodriguez,Juan David,201812268,2,4,3,3,15,0,27

@@ -13,6 +13,7 @@ d3.csv("data/Seccion2.csv").then(function(data) {
   table_data += '<th>' + "21/8/2020" + '</th>';
   table_data += '<th>' + "26/8/2020" + '</th>';
   table_data += '<th>' + "2/9/2020" + '</th>';
+  table_data += '<th>' + "11/11/2020" + '</th>';
   table_data += '<th>' + "Total" + '</th>';
   table_data += '</tr>';
 
@@ -31,6 +32,7 @@ d3.csv("data/Seccion2.csv").then(function(data) {
       table_data += '<td>' + data[i]['21/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['26/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['2/9/2020'] + '</td>';
+      table_data += '<td>' + data[i]['11/11/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -45,6 +47,7 @@ d3.csv("data/Seccion2.csv").then(function(data) {
       table_data += '<td>' + data[i]['21/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['26/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['2/9/2020'] + '</td>';
+      table_data += '<td>' + data[i]['11/11/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -59,6 +62,7 @@ d3.csv("data/Seccion2.csv").then(function(data) {
       table_data += '<td>' + data[i]['21/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['26/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['2/9/2020'] + '</td>';
+      table_data += '<td>' + data[i]['11/11/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
@@ -73,6 +77,7 @@ d3.csv("data/Seccion2.csv").then(function(data) {
       table_data += '<td>' + data[i]['21/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['26/8/2020'] + '</td>';
       table_data += '<td>' + data[i]['2/9/2020'] + '</td>';
+      table_data += '<td>' + data[i]['11/11/2020'] + '</td>';
       table_data += '<td>' + parseFloat(data[i].total) + '</td>';
       table_data += '</tr>';
     }
